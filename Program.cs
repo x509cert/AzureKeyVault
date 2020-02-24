@@ -17,7 +17,7 @@ namespace ConsoleApp5
             var keyName = "keyTest2";
 
             // pop a UI to logon to Azure
-            // this account must have the RBAC policy to create and/read a key and encrypt
+            // this account must have the RBAC policy to create/read a key and encrypt
             var creds = new DefaultAzureCredential(true);
 
             // this is the KeyVault client
