@@ -42,7 +42,7 @@ namespace ConsoleApp5
                 }
             }
 
-            // this is the client to use to perform crypto operations again KeyVault
+            // this is the client that performs crypto operations against KeyVault
             var cryptoClient = new CryptographyClient(key.Id, creds);
 
             // only three options, all RSA, for encryption
