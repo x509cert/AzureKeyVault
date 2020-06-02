@@ -8,7 +8,7 @@ You need to make sure you have these assemblies installed:
 - Install-Package Azure.Security.KeyVault.Keys
 - Install-Package Azure.Identity
 
-You need to create a KeyVault in Azure and grant the account you'll use the ability to create and read a key as well as encrypt. If you're a subscription owner or contributor, then you'll be fine.
+You need to create a KeyVault in Azure and grant the account you'll use the ability to create and read a key as well as encrypt/decrypt. If you're a subscription owner or contributor, then you'll be fine.
 
 This code was created and used .NET 4.7.2. I have not tested it with other versions. 
 
